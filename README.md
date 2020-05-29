@@ -1,1 +1,1 @@
-# hogwartsCodingSchool
+# hogwartsCoding
