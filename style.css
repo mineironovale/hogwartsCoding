@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+
+}
+#logotipo {
+  width: 400px;
+  length: 400px;
+}
+
+.headerBox{
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: stretch;
+  flex: 2 1 1 1;
+}
+
+.headerBox01{
+}
+.headerBox02{
+}
+.headerBox03{
+  align-self:flex-start;
+}
+.headerBox04{
+}
+
+div {
+  display: block;
+}
+
+header{
+  color: #E9C2A6;
+}
+
+p {
+  text-align: justify;
+  margin: 10px;
+}
+body {
+  background-color: #000000;
+  /*font-family: 'Fredoka One', cursive;*/
+}
+img {
+  border-radius: 7px;
+  height: 200px;
+  width: 100%;
+}
+h1 {
+  font-family: 'Pangolin', cursive;
+  font-size: 47px;
+  /*font-weight: 500*/
+}
+h2 {
+  text-align: left;
+  font-family: 'Pangolin', cursive;
+  font-size: 27px;
+  color: black;
+}
+
+h3{
+  text-align: left;
+  font-family: 'Pangolin', cursive;
+  font-size: 20px;
+  margin: 0;
+}
+
+.containerSuperior {
+  background-color: black;
+}
+
+a{
+  color: #E9C2A6;
+  cursor: pointer;
+}
+
+a:visited{
+  text-decoration: none;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 100%;/* or 300px 300px 300px */
+  grid-gap: 30px;
+  margin: 40px;
+}
+.grid-item {
+  background-color: #E9C2A6;
+  border-radius: 7px;
+  padding: 10px;
+  margin: 10px;
+  width: 320px;
+}
+
+#professor{
+  width: auto;
+  length: auto;
+}
+
+small{
+  color: white;
+  font-family: 'Pangolin', cursive;
+  font-size: 20px;
+}
+
+#form-inline{
+  justify-content: center;
+  align-items: right;
+}
